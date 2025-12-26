@@ -1,17 +1,20 @@
 package net.zif_tech.more_tools.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.zif_tech.more_tools.MoreTools;
 
+import java.util.Map;
+
 
 public class ModItemGroups {
+
     public static final ItemGroup MORE_TOOLS_GROUP =  Registry.register(Registries.ITEM_GROUP,
             Identifier.of(MoreTools.MOD_ID, "more_tools_group"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.DIAMOND_HAMMER))
@@ -94,5 +97,8 @@ public class ModItemGroups {
 
                     })).build()
             );
-    public static void initialize() {MoreTools.LOGGER.info("Registering {} item groups", MoreTools.MOD_ID);}
+
+    public static void initialize() {
+        MoreTools.LOGGER.info("Registering {} item groups", MoreTools.MOD_ID);
+    }
 }

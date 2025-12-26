@@ -61,12 +61,16 @@
   "item.more_tools.netherite_omni_tool": "Netherite Omni Tool",
   "item.more_tools.size": "Base size: [%1$sx%1$sx%2$s]",
   "item.more_tools.stone_big_hoe": "Stone Big Hoe",
+  "item.more_tools.stone_big_hoe_lvl_2": "Stone Big Hoe II",
   "item.more_tools.stone_big_omni_tool": "Stone Big Omni Tool",
   "item.more_tools.stone_big_shovel": "Stone Big Shovel",
+  "item.more_tools.stone_big_shovel_lvl_2": "Stone Big Shovel II",
   "item.more_tools.stone_broadsword": "Stone Broadsword",
   "item.more_tools.stone_cleaver": "Stone Cleaver",
+  "item.more_tools.stone_cleaver_lvl_2": "Stone Cleaver II",
   "item.more_tools.stone_dagger": "Stone Dagger",
   "item.more_tools.stone_hammer": "Stone Hammer",
+  "item.more_tools.stone_hammer_lvl_2": "Stone Hammer II",
   "item.more_tools.stone_omni_tool": "Stone Omni Tool",
-  "more_tools.more_tools_group": "More tools group"
+  "more_tools.more_tools_group": "More Tools Group"
 }

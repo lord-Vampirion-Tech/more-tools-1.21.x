@@ -3,6 +3,8 @@ package net.zif_tech.more_tools;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.zif_tech.more_tools.datagen.*;
+import net.zif_tech.more_tools.datagen.lang.ModLangProviderEN;
+import net.zif_tech.more_tools.datagen.lang.ModLangProviderRU;
 
 public class MoreToolsDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -15,9 +17,7 @@ public class MoreToolsDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModRegistryDataGenerator::new);
 
-		pack.addProvider((dataOutput, registryLookup) ->
-						new ModLangProvider(dataOutput, registryLookup, "en_us"));
-		pack.addProvider((dataOutput, registryLookup) ->
-						new ModLangProvider(dataOutput, registryLookup, "ru_ru"));
+		pack.addProvider(ModLangProviderEN::new);
+		pack.addProvider(ModLangProviderRU::new);
 	}
 }
