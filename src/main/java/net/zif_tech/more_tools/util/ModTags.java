@@ -22,6 +22,8 @@ public class ModTags {
         public static final TagKey<Item> CLEAVERS = createTag("cleavers");
         public static final TagKey<Item> HAMMERS = createTag("hammers");
         public static final TagKey<Item> BIG_HOES = createTag("big_hoes");
+        public static final TagKey<Item> BROADSWORDS = createTag("beoadswords");
+        public static final TagKey<Item> DAGGERS = createTag("daggers");
 
         public static final TagKey<Item> BIG_TOOLS = createTag("big_tools");
         public static final TagKey<Item> OMNI_TOOLS = createTag("omni_tools");

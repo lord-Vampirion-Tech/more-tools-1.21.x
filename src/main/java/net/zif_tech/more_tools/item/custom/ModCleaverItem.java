@@ -24,8 +24,8 @@ import java.util.Map;
 import java.util.Optional;
 
 public class ModCleaverItem extends ModHammerItem {
-    public ModCleaverItem(ToolMaterial material, TagKey<Block> blocksTag, Settings settings) {
-        super(material, 7.0F, -3.2F, blocksTag, settings);
+    public ModCleaverItem(ToolMaterial material,float damage, float attackSpeed, TagKey<Block> blocksTag, Settings settings) {
+        super(material,damage, attackSpeed, blocksTag, settings);
     }
 
     protected static final Map<Block, Block> STRIPPED_BLOCKS = new ImmutableMap.Builder<Block, Block>()
@@ -85,7 +85,7 @@ public class ModCleaverItem extends ModHammerItem {
                 }
             }
         }
-        return ActionResult.success(world.isClient);
+        return ActionResult.SUCCESS;
     }
 
 

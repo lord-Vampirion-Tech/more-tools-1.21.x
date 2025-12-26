@@ -10,7 +10,6 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.zif_tech.more_tools.item.ModItemGroups;
 import net.zif_tech.more_tools.item.ModItems;
-import net.zif_tech.more_tools.item.custom.ModHammerItem;
 import net.zif_tech.more_tools.util.ModComponents;
 import net.zif_tech.more_tools.util.ModUsageEvent;
 import org.slf4j.Logger;
