@@ -20,15 +20,34 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .forceAddTag(ModTags.Items.HAMMERS)
                 .forceAddTag(ModTags.Items.CLEAVERS)
                 .forceAddTag(ModTags.Items.BIG_SHOVELS)
-                .forceAddTag(ModTags.Items.BIG_HOES);
+                .forceAddTag(ModTags.Items.BIG_HOES)
+                .forceAddTag(ModTags.Items.BROADSWORDS);
+
+        getOrCreateTagBuilder(ModTags.Items.BROADSWORDS)
+                .add(ModItems.STONE_BROADSWORD)
+                .add(ModItems.IRON_BROADSWORD)
+                .add(ModItems.GOLDEN_BROADSWORD)
+                .add(ModItems.DIAMOND_BROADSWORD)
+                .add(ModItems.NETHERITE_BROADSWORD);
+
+        getOrCreateTagBuilder(ModTags.Items.DAGGERS)
+                .add(ModItems.STONE_DAGGER)
+                .add(ModItems.IRON_DAGGER)
+                .add(ModItems.GOLDEN_DAGGER)
+                .add(ModItems.DIAMOND_DAGGER)
+                .add(ModItems.NETHERITE_DAGGER);
 
         getOrCreateTagBuilder(ModTags.Items.OMNI_TOOLS)
                 .add(ModItems.STONE_OMNI_TOOL)
 //                .add(ModItems.COPPER_OMNI_TOOL)
                 .add(ModItems.IRON_OMNI_TOOL)
+                .add(ModItems.IRON_BIG_OMNI_TOOL)
                 .add(ModItems.GOLDEN_OMNI_TOOL)
+                .add(ModItems.GOLDEN_BIG_OMNI_TOOL)
                 .add(ModItems.DIAMOND_OMNI_TOOL)
-                .add(ModItems.NETHERITE_OMNI_TOOL);
+                .add(ModItems.DIAMOND_BIG_OMNI_TOOL)
+                .add(ModItems.NETHERITE_OMNI_TOOL)
+                .add(ModItems.NETHERITE_BIG_OMNI_TOOL);
 
         getOrCreateTagBuilder(ModTags.Items.BIG_SHOVELS)
                 .add(ModItems.STONE_BIG_SHOVEL)
@@ -38,6 +57,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.GOLDEN_BIG_SHOVEL)
                 .add(ModItems.DIAMOND_BIG_SHOVEL)
                 .add(ModItems.DIAMOND_BIG_SHOVEL_LVL_2)
+                .add(ModItems.DIAMOND_BIG_SHOVEL_LVL_3)
                 .add(ModItems.NETHERITE_BIG_SHOVEL)
                 .add(ModItems.NETHERITE_BIG_SHOVEL_LVL_2)
                 .add(ModItems.NETHERITE_BIG_SHOVEL_LVL_3);
@@ -50,6 +70,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.GOLDEN_CLEAVER)
                 .add(ModItems.DIAMOND_CLEAVER)
                 .add(ModItems.DIAMOND_CLEAVER_LVL_2)
+                .add(ModItems.DIAMOND_CLEAVER_LVL_3)
                 .add(ModItems.NETHERITE_CLEAVER)
                 .add(ModItems.NETHERITE_CLEAVER_LVL_2)
                 .add(ModItems.NETHERITE_CLEAVER_LVL_3);
@@ -62,6 +83,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.GOLDEN_HAMMER)
                 .add(ModItems.DIAMOND_HAMMER)
                 .add(ModItems.DIAMOND_HAMMER_LVL_2)
+                .add(ModItems.DIAMOND_HAMMER_LVL_3)
                 .add(ModItems.NETHERITE_HAMMER)
                 .add(ModItems.NETHERITE_HAMMER_LVL_2)
                 .add(ModItems.NETHERITE_HAMMER_LVL_3);
@@ -74,6 +96,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.GOLDEN_BIG_HOE)
                 .add(ModItems.DIAMOND_BIG_HOE)
                 .add(ModItems.DIAMOND_BIG_HOE_LVL_2)
+                .add(ModItems.DIAMOND_BIG_HOE_LVL_3)
                 .add(ModItems.NETHERITE_BIG_HOE)
                 .add(ModItems.NETHERITE_BIG_HOE_LVL_2)
                 .add(ModItems.NETHERITE_BIG_HOE_LVL_3);

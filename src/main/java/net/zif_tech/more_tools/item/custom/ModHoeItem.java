@@ -28,8 +28,8 @@ import java.util.Map;
 import java.util.Optional;
 
 public class ModHoeItem extends ModHammerItem {
-    public ModHoeItem(ToolMaterial material, TagKey<Block> blocksTag, Settings settings) {
-        super(material, -1.0F, -2.0F, blocksTag, settings);
+    public ModHoeItem(ToolMaterial material,float damage, float attackSpeed, TagKey<Block> blocksTag, Settings settings) {
+        super(material, damage, attackSpeed, blocksTag, settings);
     }
 
 
@@ -89,7 +89,7 @@ public class ModHoeItem extends ModHammerItem {
             }
         }
 
-        return ActionResult.success(world.isClient);
+        return ActionResult.SUCCESS;
     }
 
     private ActionResult harvestCrops(World world, List<BlockPos> positions, PlayerEntity player) {

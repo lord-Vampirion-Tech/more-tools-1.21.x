@@ -18,7 +18,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(ModTags.Blocks.MULTI_TOOL_MINEABLE)
                 .forceAddTag(BlockTags.PICKAXE_MINEABLE)
                 .forceAddTag(BlockTags.AXE_MINEABLE)
-                .forceAddTag(BlockTags.SHOVEL_MINEABLE);
+                .forceAddTag(BlockTags.SHOVEL_MINEABLE)
+                .forceAddTag(BlockTags.HOE_MINEABLE);
 
 //        getOrCreateTagBuilder(ModTags.Blocks.INCORRECT_FOR_COPPER_TOOL)
 //                .forceAddTag(BlockTags.NEEDS_DIAMOND_TOOL)

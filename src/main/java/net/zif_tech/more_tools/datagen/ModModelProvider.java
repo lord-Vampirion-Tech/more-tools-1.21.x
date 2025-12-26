@@ -18,13 +18,27 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(ModItems.STONE_BROADSWORD,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IRON_BROADSWORD,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GOLDEN_BROADSWORD,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DIAMOND_BROADSWORD,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHERITE_BROADSWORD,Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.STONE_DAGGER,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IRON_DAGGER,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GOLDEN_DAGGER,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DIAMOND_DAGGER,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHERITE_DAGGER,Models.HANDHELD);
+
         itemModelGenerator.register(ModItems.STONE_BIG_SHOVEL, Models.HANDHELD);
 //        itemModelGenerator.register(ModItems.COPPER_BIG_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRON_BIG_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRON_BIG_SHOVEL_LVL_2, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GOLDEN_BIG_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GOLDEN_BIG_SHOVEL_LVL_2, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_BIG_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_BIG_SHOVEL_LVL_2, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DIAMOND_BIG_SHOVEL_LVL_3, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_BIG_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_BIG_SHOVEL_LVL_2, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_BIG_SHOVEL_LVL_3, Models.HANDHELD);
@@ -34,8 +48,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.IRON_CLEAVER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRON_CLEAVER_LVL_2, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GOLDEN_CLEAVER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GOLDEN_CLEAVER_LVL_2, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_CLEAVER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_CLEAVER_LVL_2, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DIAMOND_CLEAVER_LVL_3, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_CLEAVER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_CLEAVER_LVL_2, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_CLEAVER_LVL_3, Models.HANDHELD);
@@ -45,8 +61,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.IRON_HAMMER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRON_HAMMER_LVL_2, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GOLDEN_HAMMER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GOLDEN_HAMMER_LVL_2, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_HAMMER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_HAMMER_LVL_2, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DIAMOND_HAMMER_LVL_3, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_HAMMER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_HAMMER_LVL_2, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_HAMMER_LVL_3, Models.HANDHELD);
@@ -56,8 +74,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.IRON_BIG_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRON_BIG_HOE_LVL_2, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GOLDEN_BIG_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GOLDEN_BIG_HOE_LVL_2, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_BIG_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_BIG_HOE_LVL_2, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DIAMOND_BIG_HOE_LVL_3, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_BIG_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_BIG_HOE_LVL_2, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_BIG_HOE_LVL_3, Models.HANDHELD);
@@ -65,9 +85,13 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.STONE_OMNI_TOOL, Models.HANDHELD);
 //        itemModelGenerator.register(ModItems.COPPER_OMNI_TOOL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRON_OMNI_TOOL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IRON_BIG_OMNI_TOOL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GOLDEN_OMNI_TOOL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GOLDEN_BIG_OMNI_TOOL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_OMNI_TOOL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DIAMOND_BIG_OMNI_TOOL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_OMNI_TOOL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHERITE_BIG_OMNI_TOOL, Models.HANDHELD);
 
 //        itemModelGenerator.register(ModItems.COPPER_SHOVEL, Models.HANDHELD);
 //        itemModelGenerator.register(ModItems.COPPER_AXE, Models.HANDHELD);

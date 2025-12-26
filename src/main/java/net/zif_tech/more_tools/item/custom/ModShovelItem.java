@@ -32,8 +32,8 @@ import java.util.Optional;
 public class ModShovelItem extends ModHammerItem {
     public TagKey<Block> tags = BlockTags.PICKAXE_MINEABLE;
 
-    public ModShovelItem(ToolMaterial material, TagKey<Block> blocksTag, Settings settings) {
-        super(material, 1.5f, -3.0F, blocksTag, settings);
+    public ModShovelItem(ToolMaterial material,float damage, float attackSpeed, TagKey<Block> blocksTag, Settings settings) {
+        super(material,damage, attackSpeed, blocksTag, settings);
     }
     protected static final Map<Block, BlockState> PATH_STATES = Maps.newHashMap(
             new ImmutableMap.Builder<Block, BlockState>()
@@ -81,7 +81,7 @@ public class ModShovelItem extends ModHammerItem {
             }
         }
 
-        return ActionResult.success(world.isClient);
+        return ActionResult.SUCCESS;
     }
 
     private static boolean shouldCancelFlattenAttempt(ItemUsageContext context) {

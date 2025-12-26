@@ -28,13 +28,13 @@ public class ModHammerItem extends MiningToolItem {
         return stack.get(ModComponents.DEEP);
     }
 
-    public ModHammerItem(ToolMaterial material, float damag, float speed, TagKey<Block> blocksTag, Settings settings) {
-        super(material, blocksTag, settings.attributeModifiers(createAttributeModifiers(material, damag, speed)));
+    public ModHammerItem(ToolMaterial material,float damage, float attackSpeed, TagKey<Block> blocksTag, Settings settings) {
+        super(material, blocksTag, settings.attributeModifiers(createAttributeModifiers(material, damage, attackSpeed)));
     }
 
-    public ModHammerItem(ToolMaterial material, TagKey<Block> blocksTag, Settings settings) {
-        this(material,1.0F,-2.8F, blocksTag, settings);
-    }
+//    public ModHammerItem(ToolMaterial material, float attackSpeed, TagKey<Block> blocksTag, Settings settings) {
+//        this(material,1.0F,attackSpeed, blocksTag, settings);
+//    }
 
     public static List<BlockPos> getBlocksToBeDestroyed(BlockPos initialBlockPos, PlayerEntity player){
         List<BlockPos> positions = new ArrayList<>();
