@@ -1,0 +1,12 @@
+// 1.21.1	2025-12-26T15:16:40.4487422	More Tools/Tags for minecraft:item
+0de2bc7f239c49a3df31384f4b196acbe9344c85 data\more_tools\tags\item\big_tools.json
+704916592572bd48d3ef4194d215ff290b8e388d data\minecraft\tags\item\enchantable\durability.json
+2bee8f5c86321b6167820bac6e22576b23708349 data\more_tools\tags\item\hammers.json
+5ad52b569809325b60064996f07a26905f4a8b93 data\more_tools\tags\item\beoadswords.json
+a054116b9ac575469461493438f20c139278a24a data\more_tools\tags\item\big_shovels.json
+2e03235a1b1e301f9842a6633b0f6a4880e7f2d1 data\more_tools\tags\item\omni_tools.json
+e38734961dc65ab905fd09e6763aa558247fe353 data\minecraft\tags\item\enchantable\sharp_weapon.json
+5c98fbea58dbcaf5a8d5079ad36e27bfb75fd9fa data\more_tools\tags\item\daggers.json
+704916592572bd48d3ef4194d215ff290b8e388d data\minecraft\tags\item\enchantable\mining.json
+8854097697fdda532df5b82c2f63b3273fb3fd5a data\more_tools\tags\item\cleavers.json
+e28775aec7ed97e3faca5a9716d36b5e0b577791 data\more_tools\tags\item\big_hoes.json

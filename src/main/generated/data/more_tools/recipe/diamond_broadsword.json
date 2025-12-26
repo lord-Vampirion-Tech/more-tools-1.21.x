@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "pattern": [
+    "#x#",
+    " / ",
+    " / "
+  ],
+  "result": {
+    "count": 1,
+    "id": "more_tools:diamond_broadsword"
+  }
+}
